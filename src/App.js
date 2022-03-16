@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Addition from './components/addition/Addition'
+import Subs from './components/subs/Subs'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         </p>
 
         <Addition />
+        <Subs />
 
         <a
           className="App-link"
